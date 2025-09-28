@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <title>Let's go in Pares</title>
     <style>
         body {
             margin: 0;
             font-family: sans-serif;
-            background: #fafafa;
+            background: url('https://i.pinimg.com/1200x/71/c3/dd/71c3dd96ca9e8d6192b50a257f8e27d1.jpg') center/cover no-repeat;
             color: #222;
             line-height: 1.6;
+            font-family: 'Inter', sans-serif;
         }
 
         header {
-            background: #916328ff;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: #000000ff;
             color: #fff;
             text-align: center;
             padding: 1rem;
@@ -40,24 +45,21 @@
         margin-bottom: 2rem;
         box-shadow: 0 2px 6px rgba(0,0,0,0.05);
         border-radius: 12px;
+        font-family: 'Playfair Display', serif;
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
         }   
-
-        section h2::before {
-            content: "🍽️";
-            position: absolute;
-            left: 0;
-            top: 0;
-            font-size: 1.2rem;
-        }
 
         section p {
             margin: 0;
             padding-left: 0.5rem;
             border-left: 2px solid #eee;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
         }
 
         .highlight {
-            color: rgba(56, 56, 56, 1);
+            color: rgba(255, 0, 0, 1);
             font-weight: bold;
             background: #ffecec;
             padding: 0 4px;
@@ -73,7 +75,7 @@
             display: inline-block;
             margin: 0 0.5rem;
             padding: 0.6rem 1.2rem;
-            background: #c00;
+            background: rgba(189, 188, 188, 1);
             color: #fff;
             text-decoration: none;
             border-radius: 6px;
@@ -82,7 +84,7 @@
         }
 
         .btn:hover {
-            background: #a00000;
+            background: #000000ff;
         }
 
     </style>
@@ -90,11 +92,10 @@
 <body>
     <header>
         <h1>Let's go in Pares</h1>
-        <h2>“Pares is the food of the people!”</h2>
     </header>
 
     <div class="auth-buttons">
-        <a href="login_page.php" class="btn">View Menu</a>
+        <a href="login" class="btn">View Menu</a>
     </div>  
 
 
